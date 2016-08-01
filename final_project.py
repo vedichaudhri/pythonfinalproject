@@ -15,7 +15,6 @@ def GetHandsInPosition():
 	PRighthand.settiltangle(0)
 	PLefthand.settiltangle(0)
 
-#Can we edit global variables in a block?
 values_on_hand = [1, 1, 1, 1]
 CLeft = 1
 CRight = 1
