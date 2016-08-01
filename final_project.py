@@ -15,11 +15,17 @@ def GetHandsInPosition():
 	PRighthand.settiltangle(0)
 	PLefthand.settiltangle(0)
 
+#setting_gloabal variables
 values_on_hand = [1, 1, 1, 1]
 CLeft = 1
 CRight = 1
 PLeft = 1
 PRight = 1
+Level = ""
+own_hand = "" #no
+opponents_hand "" #no
+moves = "" #no
+moves_not_to_make = []
 
 def reset_hands():
 	values_on_hand = [1, 1, 1, 1]
@@ -52,7 +58,6 @@ def hard():
 def finish_computers_turn():
 
 def how_to_win_computer (values_on_hands):
-
 
 def are_hands_available_for_move(move):
 
