@@ -1,8 +1,5 @@
 import turtle as t
 
-#def computerhand(Self, Number, Positionx, Positiony, direction):
-	#need to edit
-
 CLefthand = t.Turtle()
 CRighthand = t.Turtle()
 PRighthand = t.Turtle()
@@ -11,15 +8,12 @@ PLefthand = t.Turtle()
 def GetHandsInPosition():
 	CLefthand.goto(-120, 80)
 	CRighthand.goto(120,80)
-	PRighthand.goto()
-	CLefthand.settiltangle(90)
-	CRighthand.settiltangle(90)
-
-values_on_hand = []
-CLeft = 1
-CRight = 1
-PLeft = 1
-PRight = 1
+	PLefthand.goto(-120, -80)
+	PRighthand.goto(-120, 80)
+	CLefthand.settiltangle(180)
+	CRighthand.settiltangle(180)
+	PRighthand.settiltangle(0)
+	PLefthand.settiltangle(0)
 
 def reset_hands():
 	values_on_hand = [1, 1, 1, 1]
